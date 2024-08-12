@@ -308,7 +308,7 @@ You can add custom strategies using two different ways.
 The simplest way is to define the strategy inline in the decorator options. A strategy must implement the following two methods.
 
 ```ts
-import { SlugifyStrategy } from '@adonisjs/lucid-slugify/types
+import { SlugifyStrategy } from '@adonisjs/lucid-slugify/types'
 
 const myCustomStrategy: SlugifyStrategy = {
   makeSlug (model, field, value) {
